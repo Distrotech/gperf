@@ -63,7 +63,7 @@ SHELL = /bin/sh
 
 VPATH = $(srcdir)
 
-all : info ps pdf html
+all : info ps
 
 
 info : $(srcdir)/gperf.info
